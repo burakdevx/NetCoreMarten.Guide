@@ -25,7 +25,7 @@ services:
     networks:
       - netcoremarten-guide-network
 #    environment:
-#      - ConnectionStrings__PostgreSQL=Host=postgres;Port=5432;Database=mydatabase;Username=admin;Password=admin123;
+#      - ConnectionStrings__PostgreSQL=Host=postgres;Port=5432;Database=martendb;Username=admin;Password=admin123;
 
   ui:
     image: burakdevx/netcoremarten.guide.ui:latest
