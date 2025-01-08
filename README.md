@@ -7,11 +7,11 @@
   Else;[Docker Command Information](https://github.com/burakdevx/NetCoreMarten.Guide/blob/main/postgress_docker_command.txt)
 # Project Port
   # Docker Compose Container Port
-  UI : [http://localhost:3000](http://localhost:3000/product-list)
-  API : [http://localhost:7171](http://localhost:7171/api)
+  * UI : [http://localhost:3000](http://localhost:3000/product-list)
+  * API : [http://localhost:7171](http://localhost:7171/api)
   # Development Env Port
-  UI : [http://localhost:4200](http://localhost:4200/product-list)
-  API :[http://localhost:7196/api](https://localhost:7196/api/)
+  * UI : [http://localhost:4200](http://localhost:4200/product-list)
+  * API :[http://localhost:7196/api](https://localhost:7196/api/)
 
 # Repositories
 * [UI (Angular) Project](https://github.com/burakdevx/NetCoreMarten.Guide.API)
