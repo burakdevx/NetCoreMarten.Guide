@@ -5,6 +5,11 @@
 
 ❗❕The application requires a postgresql database.If you run docker-compose first, the postgresql database and container will already be running.
   Else;[Docker Command Information](https://github.com/burakdevx/NetCoreMarten.Guide/blob/main/postgress_docker_command.txt)
+
+# Repositories
+* [UI (Angular) Project](https://github.com/burakdevx/NetCoreMarten.Guide.API)
+* [Service (.Net 6) Project](https://github.com/burakdevx/NetCoreMarten.Guide.API)
+
 # Project Port
   # Docker Compose Container Port
   * UI : [http://localhost:3000](http://localhost:3000/product-list)
@@ -13,6 +18,4 @@
   * UI : [http://localhost:4200](http://localhost:4200/product-list)
   * API :[http://localhost:7196/api](https://localhost:7196/api/)
 
-# Repositories
-* [UI (Angular) Project](https://github.com/burakdevx/NetCoreMarten.Guide.API)
-* [Service (.Net 6) Project](https://github.com/burakdevx/NetCoreMarten.Guide.API)
+
