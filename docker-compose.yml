@@ -1,0 +1,46 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres
+    container_name: postgres-container
+    environment:
+      POSTGRES_USER: admin
+      POSTGRES_PASSWORD: admin123
+      POSTGRES_DB: mydatabase
+    ports:
+      - "5432:5432"
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+    networks:
+      - netcoremarten-guide-network
+
+  api:
+    image: burakdevx/netcoremarten.guide.api:latest
+    container_name: netcoremarten-guide-api-container
+    ports:
+      - "7171:80"
+    depends_on:
+      - postgres
+    networks:
+      - netcoremarten-guide-network
+#    environment:
+#      - ConnectionStrings__PostgreSQL=Host=postgres;Port=5432;Database=mydatabase;Username=admin;Password=admin123;
+
+  ui:
+    image: burakdevx/netcoremarten.guide.ui:latest
+    container_name: netcoremarten.guide.ui
+    ports:
+      - "3000:80"
+    depends_on:
+      - api
+    networks:
+      - netcoremarten-guide-network
+
+networks:
+  netcoremarten-guide-network:
+    name: netcoremarten-guide-network
+
+volumes:
+  postgres_data:
+    name: postgres_data
