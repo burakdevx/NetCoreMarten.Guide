@@ -7,7 +7,7 @@
   Else;[Docker Command Information](https://github.com/burakdevx/NetCoreMarten.Guide/blob/main/postgress_docker_command.txt)
 
 # Repositories
-* [UI (Angular) Project](https://github.com/burakdevx/NetCoreMarten.Guide.API)
+* [UI (Angular) Project](https://github.com/burakdevx/NetCoreMarten.Guide.UI)
 * [Service (.Net 6) Project](https://github.com/burakdevx/NetCoreMarten.Guide.API)
 
 # Project Port
